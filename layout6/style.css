@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.space{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(6, 6, 68);
+    color: white;
+}
+.space p{
+    font-size: 10px;
+    text-align: center;
+}
+.box1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black ;
+   /* box-shadow: 0px 0px 40px 40px black; */
+}
+.search-container {
+    display: flex;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.search-container i{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+   
+}
+
+.box1 .logo{
+   
+    float: left;
+    margin-left: 80px;
+    
+   
+}
+.box1 .logo li {
+    margin-top: 25px;
+    margin-left: 50px;
+   
+}
+.box1 .navbar ul li {
+    float:  right;
+    /* margin-right: 100px; */
+    margin-top: 25px;
+    padding-right: 100px;
+}
+ .box1 li{
+    text-decoration: none;
+    display: inline-block;
+
+   
+}
+.box1  a{
+    text-decoration: none;
+    color: gray;
+   
+}
+.box2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+.box2 .left{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 1px 10px 1px black;
+}
+.box2 .left:hover{
+    box-shadow: 0 0 10px 2px rgb(220, 154, 176);
+
+}
+.box2 .left h3{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(253, 251, 251);
+    font-size: 25px;
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 7px  black;
+  
+}
+.box2 .left h3:hover{
+
+    background-color: darkgray;
+}
+
+.box2 .right{
+    width: 700px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+
+}
+.box2 .right .rightimgs1{
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+    float: left;
+    border-radius: 20px;
+}
+.box2 .right .rightimgs1 img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 1px 10px 1px black;
+    transition: all .4s linear;
+}
+.box2 .right .rightimgs1:hover img{
+    transform:  rotateY(180deg) scale(.5);    
+   }
+.box2 .right .rightimgs2{
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(0, 255, 136); */
+    float: left;
+    margin-left: 20px;
+   
+}
+.box2 .right .rightimgs2 img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 1px 10px 1px black;
+    transition: all .4s linear;
+}
+.box2 .right .rightimgs2:hover img{
+    transform:  rotateY(180deg) scale(.5);    
+   }
+.box2 .right .rightimgs3{
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+    float: right;
+    margin-right: 60px;
+    
+    
+}
+.box2 .right .rightimgs3 img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 1px 10px 1px black;
+    transition: all .4s linear;
+}
+.box2 .right .rightimgs3:hover img{
+    transform:  rotateY(180deg) scale(.5);    
+   }
+.box3{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+}
+.box3 h1{
+    color: white;
+    float: left;
+    margin-left: 100px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+.box3 h2{
+    color: white;
+    float: left;
+    margin-left: 150px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+.box3 h3{
+    color: white;
+    float: left;
+    margin-left: 170px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+.box3 h4{
+    color: white;
+    float: left;
+    margin-left: 170px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+.box4{
+    width: 100%;
+    height: 550px;
+    /* background-color: red; */
+    float: left;
+    border-bottom: 2px solid gray;
+  
+
+}
+.box4 h1{
+    color: rgb(1, 4, 34);
+    float: left;
+    /* border: 2px solid white; */
+    margin-left: 215px;
+    margin-top: 80px;
+}
+.box4 .cate{
+    width: 1200px;
+    height: 350px;
+    /* background-color: aqua; */
+    margin-left: 150px;
+    
+    margin-top: 150px;
+    
+}
+.box4 .cate i{
+    color: red;
+}
+.box4 .cate .top{
+    width: 300px;
+    height: 80px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-left: 65px;
+    /* padding-left: 30px; */
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+}
+.box4 .cate .top1:hover{
+    
+    background-color: blueviolet;
+}
+.box4 .cate .top2:hover{
+    background-color: rgb(43, 226, 122);
+}
+.box4 .cate .top3:hover{
+    background-color: rgb(226, 43, 159);
+}
+.box4 .cate .top h2{
+ color: rgb(0, 0, 0);
+ text-align: center;
+ margin-top: 20px;
+ margin-left: 50px;
+}
+.box4 .cate .mid{
+    width: 300px;
+    height: 80px;
+    /* background-color: rgb(43, 226, 147); */
+    float: left;
+    margin-left: 65px;
+    margin-top: 30px;
+    box-shadow: 0 0 6px black;
+    border-radius: 10px;
+}
+.box4 .cate .mid1:hover{
+    background-color: gold;
+}
+.box4 .cate .mid2:hover{
+    background-color: rgb(47, 0, 255);
+}
+.box4 .cate .mid3:hover{
+    background-color: rgb(0, 166, 255);
+}
+.box4 .cate .mid h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+   }
+
+.box4 .cate .bottom{
+    width: 300px;
+    height: 80px;
+    /* background-color: rgb(223, 226, 43); */
+    float: left;
+    margin-left: 65px;
+    margin-top: 30px;
+    box-shadow: 0 0 6px black;
+    border-radius: 10px;
+}
+.box4 .cate .bottom1:hover{
+    background-color: green;
+}
+.box4 .cate .bottom2:hover{
+    background-color: rgb(194, 197, 8);
+}
+.box4 .cate .bottom3:hover{
+    background-color: rgb(102, 104, 102);
+}
+.box4 .cate .bottom h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+   }
+
+.box4 h2{
+    color: gray;
+    float: left;
+    margin-top: 20px;
+
+}
+.box4 h3{
+    color: gray;
+    float: right;
+   
+    margin-top: 20px;
+}
+.box4 ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    color: gray;
+}
+
+.box5{
+    width: 100%;
+    height: 500px;
+    /* border-bottom: 2px solid black; */
+    /* background-color: rebeccapurple; */
+}
+.box6{
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+}
+.box6 p{
+    font-size: 10px;
+    color: gray;
+}
+.box6 .top{
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    float: left;
+    margin-top: 80px;
+    margin-left: 140px;
+    box-shadow: -1px 0px 20px 10px darkgray;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+.box6 .top img{
+    width: 100%;
+    border-radius: 10px;
+}
+.box6 .top:hover{
+    transform: translateY(-20px) scale(1);
+    box-shadow: 0px 0px 10px 5px yellow;
+}
+.box6 .bottom{
+    width: 200px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-left: 140px;
+    margin-top: 120px;
+    box-shadow: -1px 0px 20px 10px darkgray;
+    border-radius: 10px;
+    
+   
+}
+
+.box6 .bottom img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all .4s linear;
+   
+   
+}
+.box6 .bottom:hover img{
+    transform: rotateY(180deg) scale(1.3);
+    box-shadow: 0px 0px 10px 5px  pink;
+}
+.box7{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+}
+.box7 .center{
+    width: 500px;
+    height: 200px;
+    /* border: 2px solid brown; */
+    font-size: 100px;
+    color: red;
+    float: left;
+    margin-left: 600px;
+}
+.box7 .center h2{
+
+    color: black;
+    font-size: 25px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.box7 .center h3{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(255, 170, 23);
+    color: gray;
+    font-size: 25px;
+    float: right;
+    padding: 15px;
+    padding-left: 25px;
+    margin-right: 80px;
+    /* margin-bottom: 200px; */
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.box7 .center h3:hover{
+    background-color: rgb(200, 224, 45);
+    box-shadow: 0px 0px 10px 10px pink;
+}
+
+.box8{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+}
+.box8 img{
+    width: 100%;
+    height: 100%;
+}
+
+.box9{
+    width: 100%;
+    height: 500px;
+    /* background-color: rebeccapurple; */
+}
+
+.box9 .top{
+    width: 300px;
+    height: 440px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    transition: all .4s linear;
+}
+.box9 .top:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 10px 6px rgb(255, 26, 26);
+}
+
+/* 
+.box9 .top .one{
+    background-color: rgb(227, 170, 179);
+} */
+/* .box9 .two .one{
+    background-color: rgb(84, 255, 99);
+} */
+/* .box9 .three .one{
+    background-color: pink;
+} */
+.box9 .one .imgs{
+    width: 230px;
+    height: 230px;
+    background-color: red;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box9 .two .imgs{
+    width: 230px;
+    height: 230px;
+    background-color: red;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box9 .three .imgs{
+    width: 230px;
+    height: 230px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+   
+}
+.box9 .imgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.box9 h2{
+    text-align: center;
+    color: white;
+}
+.box9 p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.box10{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+}
+.box10 .left{
+    width: 500px;
+    height: 400px;
+    /* background-color: chartreuse; */
+    float: left;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.box10 h1{
+    width: 145px;
+    height: 60px;
+    background-color: rgb(255, 55, 55);
+    color: white;
+    padding: 11px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.box10 h1:hover{
+   background-color: black;
+   color: white;
+   box-shadow: 0px 0px 10px 7px pink;
+}
+
+.box10 .right{
+    width: 400px;
+    height: 400px;
+    /* background-color: blueviolet; */
+    float: right;
+    margin-top: 70px;
+    margin-right: 200px;
+}
+.box10 .right img{
+    width: 100%;
+    /* height: 100%; */
+}

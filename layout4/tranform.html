@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+
+    <style>
+        .box{
+            height: 600px;
+            width: 100%;
+            /* background-color: red; */
+            border-radius: 10px;
+            overflow: hidden;
+
+            /* transform: translateX(600px) translateY(100px) scale(1.6); */
+            box-shadow: 0px 0px 10px black;
+        }
+    
+      
+        .sub1{
+            width: 200px;
+            height: 200px;
+            
+            background-color: darkgray;
+            transition: all 1s linear;
+            float: left;
+            margin-left: 600px;
+            margin-top: 300px;
+            overflow: hidden;
+            
+        }
+
+        .subof1
+        {
+            height: 100px;
+            width: 100px;
+            background-color:red;
+            transition: all .8s linear;
+            
+            margin:35px auto;
+        }
+      
+            .sub1:hover .subof1{
+                transform:rotateY(360deg) scale(3);
+                
+            }
+            .sub2{
+                width: 200px;
+                height: 200px;
+                background-color: blueviolet;
+                float: left;
+                margin-top: 30px;
+                margin-left: 40px;
+                transition:  .5s ease-in;
+                border-top-right-radius: 150px;
+                
+                
+            }
+            .sub2:hover{
+                border-bottom-left-radius: 150px;
+                border-top-right-radius: 0px;
+               
+
+            }
+            /* p{
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+} */
+
+            
+            
+
+    
+    
+    </style>
+</head>
+<body>
+
+    <div class="box">
+       
+        <div class="sub1">
+            <div class="subof1">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, esse!</p>
+            </div>
+        </div>
+        <div class="sub2">
+            
+          
+
+        </div>
+        <div class="sub3">
+            <button class="btn">click</button>
+
+        </div>
+
+       
+
+    </div>
+
+  
+    
+</body>
+</html>
